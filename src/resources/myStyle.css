@@ -1,0 +1,40 @@
+.button {
+    /*文本颜色*/
+    -fx-text-fill: #000000;
+    /*字体大小*/
+    -fx-font-size: 18px;
+    /*背景色*/
+    -fx-background-color: rgb(50,50,50);
+    /*设置圆角效果*/
+    -fx-border-radius: 25;
+    -fx-background-radius: 25;
+    /*合适大小*/
+    -fx-pref-width: 120px;
+    -fx-pref-height: 35px;
+}
+.root{
+    -fx-background-color: #ffffff;
+}
+
+.label{
+    -fx-background-color: #000000;
+}
+
+.vbox{
+    -fx-border-color: red;
+    -fx-border-width: 2px;
+    -fx-padding: 5px;
+    -fx-text-alignment: center;
+}
+
+/**设置Button 点击鼠标样式**/
+.button:pressed{
+    /**设置边框背景颜色**/
+    -fx-border-color: red;
+    -fx-background-color: red;
+}
+
+/*TextArea字体样式*/
+.text-area{
+    -fx-text-alignment: center;
+}

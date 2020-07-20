@@ -1,0 +1,26 @@
+.button{
+    /*文本颜色*/
+    -fx-text-fill: #000000;
+    /*字体大小*/
+    -fx-font-size: 18px;
+    /*背景色*/
+    -fx-background-color: rgb(250,250,250);
+    /*设置圆角效果*/
+    -fx-border-radius: 25;
+    -fx-background-radius: 25;
+    /*合适大小*/
+    -fx-pref-width: 120px;
+    -fx-pref-height: 35px;
+}
+
+/**设置Button 点击鼠标样式**/
+.button:pressed{
+    /**设置边框背景颜色**/
+    -fx-border-color: red;
+    -fx-background-color: red;
+}
+
+.root{
+    -fx-background-color: white;
+}
+
